@@ -1,0 +1,33 @@
+/* Reutilizar los estilos anteriores y añadir los siguientes */
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+#logoutBtn {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: #c9302c;
+}
