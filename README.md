@@ -18,9 +18,9 @@ Este proyecto implementa un sistema de inicio de sesión utilizando únicamente 
 
 El sistema se organiza de la siguiente manera:
 
-1. **Inicio de sesión (`index.html`)**: El usuario ingresa su nombre de usuario y contraseña. Si la autenticación es exitosa, se almacena el usuario activo en `localStorage` y es redirigido a la página de bienvenida.
+1. **Inicio de sesión (`loggin.html`)**: El usuario ingresa su nombre de usuario y contraseña. Si la autenticación es exitosa, se almacena el usuario activo en `localStorage` y es redirigido a la página de bienvenida.
 2. **Registro (`register.html`)**: Si los datos ingresados no existen en la base local, se redirige al formulario de registro, donde el usuario puede crear una nueva cuenta. Los datos se almacenan en `localStorage` como un par clave-valor (usuario-contraseña).
-3. **Página de bienvenida (`dashboard.html`)**: Una vez iniciado el proceso de autenticación, se muestra una tarjeta de bienvenida con el nombre del usuario. El usuario también tiene la opción de cerrar sesión.
+3. **Página de bienvenida (`bienvenido.html`)**: Una vez iniciado el proceso de autenticación, se muestra una tarjeta de bienvenida con el nombre del usuario. El usuario también tiene la opción de cerrar sesión.
 4. **Cierre de sesión**: Al hacer clic en el botón "Cerrar Sesión", el sistema elimina la información del usuario de `localStorage` y redirige al inicio de sesión.
 
 ## Montaje y Herramientas Utilizadas
@@ -35,7 +35,7 @@ Para ejecutar este proyecto, no se requiere un servidor backend, ya que todo el 
 ### Montaje:
 
 1. Clonar o descargar el repositorio del proyecto.
-2. Abrir el archivo `index.html` en un navegador para acceder a la página de inicio de sesión.
+2. Abrir el archivo `loggin.html` en un navegador para acceder a la página de inicio de sesión.
 3. No se necesita configuración adicional, ya que todo el proyecto es del lado del cliente.
 
 ## Aplicación y Objetivo del Ejercicio
