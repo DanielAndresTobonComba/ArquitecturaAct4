@@ -64,3 +64,16 @@ El objetivo principal de este ejercicio es demostrar una implementación de un s
 
 Este proyecto es un ejercicio básico para demostrar cómo implementar un sistema de autenticación sin backend, enfocándose en la estructura y arquitectura del lado del cliente. Ideal para aprender sobre las API del navegador y la gestión de la sesión.
 
+
+### Demostracion de funcionamiento 
+
+
+### Loggin
+![loggin](https://github.com/user-attachments/assets/259c739a-1d44-4c3b-be28-4257c4b8c0eb)
+
+### Registro
+![registro](https://github.com/user-attachments/assets/580966a3-925f-4a6e-a0b2-f69d7286c6c1)
+
+### Tarjeta de bienvenida
+![datos](https://github.com/user-attachments/assets/5bfdf3a8-466d-4340-92c4-64ac5967a260)
+
