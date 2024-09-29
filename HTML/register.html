@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="/CSS/loggin.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Registro de Usuario</h2>
+    <div class="register-container">
+        <h1>Registro de Usuario</h1>
         <form id="registerForm">
-            <div class="input-group">
-                <label for="newUsername">Nuevo Usuario:</label>
-                <input type="text" id="newUsername" required>
-            </div>
-            <div class="input-group">
-                <label for="newPassword">Nueva Contraseña:</label>
-                <input type="password" id="newPassword" required>
-            </div>
+            <label for="newUsername">Nombre de usuario</label>
+            <input type="text" id="newUsername" required>
+
+            <label for="newPassword">Contraseña</label>
+            <input type="password" id="newPassword" required>
+
             <button type="submit">Registrar</button>
         </form>
+
+        <!-- Botón para retornar a la página de login -->
+        <button class="back-to-login-btn" onclick="backToLogin()">Volver al Login</button>
     </div>
 
     <script src="/JS/register.js"></script>

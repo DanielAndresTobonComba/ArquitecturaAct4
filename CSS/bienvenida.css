@@ -1,4 +1,11 @@
 /* Reutilizar los estilos anteriores y añadir los siguientes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 .welcome-container {
     display: flex;
